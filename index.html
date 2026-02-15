@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Express - A Melhor Pizza da Cidade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-pizza-slice"></i>
+                    <span>Pizza Express</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#menu">Cardápio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>A Melhor Pizza <span>Tradicional Italiana</span></h1>
+                <p>Sabores autênticos, ingredientes frescos e o forno a lenho que faz toda a diferença</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">Ver Cardápio</a>
+                    <a href="#contact" class="btn btn-secondary">Fazer Pedido</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=600&fit=crop&crop=center" alt="Pizza deliciosa" class="hero-pizza-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-fire"></i>
+                    <h3>Forno a Lenho</h3>
+                    <p>Tradição italiana com pizzas assadas no forno a lenho para um sabor único</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Ingredientes Frescos</h3>
+                    <p>Selecionados diariamente direto do produtor para garantir qualidade máxima</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Entrega Rápida</h3>
+                    <p>Entrega em até 30 minutos em toda a região com pizza quentinha</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nosso Cardápio</h2>
+                <p>Pizzas tradicionais e especiais para todos os gostos</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=200&h=200&fit=crop&crop=center" alt="Pizza Margherita">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Margherita</h3>
+                        <p>Molho de tomate, muçarela, manjericão e azeite</p>
+                        <div class="menu-item-price">R$ 35,90</div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop&crop=center" alt="Pizza Calabresa">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Calabresa</h3>
+                        <p>Molho de tomate, muçarela, calabresa e cebola</p>
+                        <div class="menu-item-price">R$ 38,90</div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=200&h=200&fit=crop&crop=center" alt="Pizza Portuguesa">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Portuguesa</h3>
+                        <p>Molho, muçarela, presunto, ovo, cebola e tomate</p>
+                        <div class="menu-item-price">R$ 42,90</div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://www.sabornamesa.com.br/media/k2/items/cache/ada34cd2101afafaba465aad112ee3c1_XL.jpg" alt="Pizza Frango com Catupiry">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Frango com Catupiry</h3>
+                        <p>Molho, muçarela, frango desfiado e catupiry</p>
+                        <div class="menu-item-price">R$ 44,90</div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop&crop=center" alt="Pizza Quatro Queijos">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Quatro Queijos</h3>
+                        <p>Molho, muçarela, gorgonzola, parmesão e provolone</p>
+                        <div class="menu-item-price">R$ 46,90</div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=200&h=200&fit=crop&crop=center" alt="Pizza Pepperoni">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Pepperoni</h3>
+                        <p>Molho, muçarela e pepperoni americano</p>
+                        <div class="menu-item-price">R$ 41,90</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Nossa História</h2>
+                    <p>Há mais de 20 anos trazendo o sabor autêntico da Itália para sua mesa. Nossa receita foi passada de geração em geração, mantendo a tradição e qualidade que nos tornou referência na cidade.</p>
+                    <p>Usamos apenas ingredientes selecionados, massa fermentada naturalmente e o segredo do nosso forno a lenho para criar pizzas inesquecíveis.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Anos de Tradição</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Sabores Únicos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100K+</h3>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&h=500&fit=crop&crop=center" alt="Pizzaiolo fazendo pizza" class="about-pizza-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Faça Seu Pedido</h2>
+                <p>Ligue agora ou peça online</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(11) 1234-5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua das Pizzas, 123 - Centro</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horário</h3>
+                            <p>Terça a Domingo: 18h - 23h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="orderForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Seu telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Endereço de entrega" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Escolha sua pizza</option>
+                                <option value="margherita">Margherita - R$ 35,90</option>
+                                <option value="calabresa">Calabresa - R$ 38,90</option>
+                                <option value="portuguesa">Portuguesa - R$ 42,90</option>
+                                <option value="frango">Frango com Catupiry - R$ 44,90</option>
+                                <option value="quatro-queijos">Quatro Queijos - R$ 46,90</option>
+                                <option value="pepperoni">Pepperoni - R$ 41,90</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Observações (opcional)" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Fazer Pedido</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-pizza-slice"></i>
+                    <span>Pizza Express</span>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2024 Pizza Express. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

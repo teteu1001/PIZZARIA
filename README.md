@@ -135,36 +135,5 @@ pizzaria/
 - **ARIA Labels** - Navegação por screen readers
 - **Keyboard Navigation** - Acessibilidade total
 
-## 🤝 Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para:
 
-1. **Fork** o projeto
-2. Criar uma **branch** (`git checkout -b feature/nova-funcionalidade`)
-3. **Commit** suas mudanças (`git commit -m 'Adicionando nova funcionalidade'`)
-4. **Push** para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abrir um **Pull Request**
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👨‍🍳 Autor
-
-**Desenvolvido por:** [teteu1001](https://github.com/teteu1001)
-
-- **GitHub:** [@teteu1001](https://github.com/teteu1001)
-- **LinkedIn:** [Seu perfil](https://linkedin.com/in/seu-perfil)
-
-## 🙏 Agradecimentos
-
-- **Unsplash** - Imens de alta qualidade e gratuitas
-- **Font Awesome** - Ícones incríveis
-- **Google Fonts** - Tipografia elegante
-- **Comunidade Web** - Inspiração e melhores práticas
-
----
-
-⭐ **Se este projeto foi útil para você, deixe uma estrela!**
-
-📞 **Entre em contato:** (11) 1234-5678 | contato@pizzaexpress.com.br
